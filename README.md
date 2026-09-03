@@ -122,7 +122,8 @@
             
             <!-- เมนูที่ 1: ข้าวผัดปู (ใส่ชื่อไฟล์รูปภาพของคุณเรียบร้อยแล้ว) -->
             <div class="menu-card">
-                <img src="image_fdb1f795.png" alt="Crab fried rice" class="menu-image">
+                <img src="https://unsplash.com" alt="Crab fried rice" class="menu-image">
+rice" class="menu-image">
                 <div class="menu-content">
                     <h3 class="menu-title">Crab Fried Rice 🦀</h3>
                     <div class="order-action">
