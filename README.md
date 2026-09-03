@@ -16,7 +16,7 @@
 </tr>
 <tr>
 <td> Crab fried rice <br>
-<img src="menu1.jpg" alt="Flowers" width="50" height="50" >
+<img src="image_fdb1f795.png" alt="Flowers" width="50" height="50" >
 <input type="number" id="qty" min="1" value="1" placeholder="Quantity">
 </td>
 <td>Small rice noodles</td>
