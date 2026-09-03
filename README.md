@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>✨ เดลิเวอรี่ความอร่อย - Food Order</title>
     <style>
-        /* สไตล์พื้นฐานและการจัดธีมสีของหน้าเว็บ */
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             background-color: #f8fafc;
@@ -29,20 +28,18 @@
 
         .subtitle {
             text-align: center;
-            color: #ef4444; /* เปลี่ยนจากตัวอักษรสีแดงแบบเดิมให้เป็นสีแดงสว่างดูโมเดิร์นขึ้น */
+            color: #ef4444;
             font-size: 1.1rem;
             margin-bottom: 40px;
             font-weight: 500;
         }
 
-        /* โครงสร้างการจัดวางเมนูแบบ Grid (แทนที่ Table เดิม) */
         .menu-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
         }
 
-        /* สไตล์กล่องเมนูอาหาร (การ์ด) */
         .menu-card {
             background: #ffffff;
             border-radius: 20px;
@@ -52,7 +49,6 @@
             border: 1px solid #e2e8f0;
         }
 
-        /* ลูกเล่นเวลาเอาเมาส์ไปชี้ที่เมนู (Hover Effect) */
         .menu-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -76,7 +72,6 @@
             color: #0f172a;
         }
 
-        /* ส่วนกรอกจำนวนและปุ่มกด */
         .order-action {
             display: flex;
             align-items: center;
@@ -100,7 +95,6 @@
         }
 
         .order-btn {
-            flex-1: 1;
             background-color: #ef4444;
             color: white;
             border: none;
@@ -124,12 +118,10 @@
         <h2>My Food Order Page</h2>
         <p class="subtitle">✨ The style is attribute of paragraph tag</p>
 
-        <!-- ส่วนแสดงรายการอาหารแบบเก๋ ๆ -->
         <div class="menu-grid">
             
-            <!-- เมนูที่ 1: ข้าวผัดปู -->
+            <!-- เมนูที่ 1: ข้าวผัดปู (ใส่ชื่อไฟล์รูปภาพของคุณเรียบร้อยแล้ว) -->
             <div class="menu-card">
-                <!-- ดึงรูปของคุณมาใส่ตรงนี้ หากไฟล์อยู่ถูกที่ รูปจะขึ้นขนาดสวยงามพอดีครับ -->
                 <img src="image_fdb1f795.png" alt="Crab fried rice" class="menu-image">
                 <div class="menu-content">
                     <h3 class="menu-title">Crab Fried Rice 🦀</h3>
@@ -142,7 +134,6 @@
 
             <!-- เมนูที่ 2: เส้นหมี่ -->
             <div class="menu-card">
-                <!-- ผมใส่รูปจากระบบจำลองไว้ชั่วคราวเพื่อให้เห็นภาพโครงสร้างที่สวยงาม สามารถเปลี่ยนชื่อรูปได้ภายหลังครับ -->
                 <img src="https://unsplash.com" alt="Small rice noodles" class="menu-image">
                 <div class="menu-content">
                     <h3 class="menu-title">Small Rice Noodles 🍜</h3>
@@ -158,6 +149,7 @@
 
 </body>
 </html>
+
 
 
 
